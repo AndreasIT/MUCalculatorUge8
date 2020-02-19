@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MUCalculatorUge8.App">
+    <Application.Resources>
+        <Color x:Key="NumberButtonBackgroundColor">white</Color>
+        <Color x:Key="ModeratorButtonBackgroundColor">orange</Color>
+        <Color x:Key="DeleteButtonBackgroundColor">gray</Color>
+        <Color x:Key="LightBackgroundTextColor">black</Color>
+        <Style x:Key="NumberButtons" TargetType="Button">
+            <Setter Property="BorderRadius" Value="0" />
+            <Setter Property="FontSize" Value="36" />
+            <Setter Property="BackgroundColor" Value="White" />
+            <Setter Property="TextColor" Value="Black" />
+        </Style>
+        <Style x:Key="ModeratorButtons" TargetType="Button">
+            <Setter Property="BorderRadius" Value="0" />
+            <Setter Property="FontSize" Value="36" />
+            <Setter Property="BackgroundColor" Value="#FFA400" />
+            <Setter Property="TextColor" Value="White" />
+        </Style>
+        <Style x:Key="DeleteButtons" TargetType="Button">
+            <Setter Property="BorderRadius" Value="0" />
+            <Setter Property="FontSize" Value="36" />
+            <Setter Property="BackgroundColor" Value="#808080" />
+            <Setter Property="TextColor" Value="White" />
+        </Style>
+        <Style x:Key="ResultLabel" TargetType="Label">
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="FontSize" Value="48"/>
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="BackgroundColor" Value="Black" />
+        </Style>
+
+    </Application.Resources>
+</Application>
